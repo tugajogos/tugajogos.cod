@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Imagens - Cloud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            background-color: #0078d4;
+            color: white;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            object-fit: cover;
+        }
+
+        footer {
+            padding: 10px;
+            background-color: #0078d4;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Imagens - Cloud</h1>
+    <div class="gallery">
+        <img src="https://galeriacloud2025.blob.core.windows.net/images/foto1.jpg" alt="Imagem 1">
+        <img src="https://galeriacloud2025.blob.core.windows.net/images/foto2.jpg" alt="Imagem 2">
+        <img src="https://galeriacloud2025.blob.core.windows.net/images/foto3.jpg" alt="Imagem 3">
+    </div>
+
+    <footer>Projeto Final - Computação em Cloud Pública | João Inácio - 2024/2025</footer>
+</body>
+</html>
